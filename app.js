@@ -4,6 +4,7 @@ var app = express();
 var port = process.env.PORT || 3000;
 // app.use(cors())
 app.get('/user', function (req, res) {
+    console.log("recevuied");
     res.send('Sample Node.js App');
 });
 
